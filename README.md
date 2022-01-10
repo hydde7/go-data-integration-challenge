@@ -1,6 +1,9 @@
 # Data integration challenge
 
-Projeto criado na linguagem Go, utilizando Docker com PostgreSQL
+- Linguagem: Go
+- Container Docker
+- PostgreSQL
+
 Tenha certeza que você possua Go, Docker e PostgreSQL instalados em sua máquina
 
 A porta que a API opera é a 8000
