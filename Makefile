@@ -6,5 +6,6 @@ go run main.go
 check:
 go test ./src/database
 
-#setup:
-#if needed to setup the enviroment before starting it
+setup:
+go get -d ./...
+docker-compose up
