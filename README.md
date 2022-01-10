@@ -1,8 +1,6 @@
 # Data integration challenge
 
 - Linguagem: Go
-- Container Docker
-- PostgreSQL
 
 Tenha certeza que você possua Go, Docker e PostgreSQL instalados em sua máquina
 
