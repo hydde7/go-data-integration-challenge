@@ -1,9 +1,10 @@
 # Data integration challenge
 
-A porta que a API opera é a 8000
+O projeto foi feito na linguagem Go, utilizando os containers do Docker com o banco de dados PostgreSQL
 
 Tenha certeza que você possua Go, Docker e PostgreSQL instalados em sua máquina
 
+A porta que a API opera é a 8000
 
 ## Packages
 
