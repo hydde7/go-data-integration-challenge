@@ -8,4 +8,4 @@ go test ./src/database
 
 setup:
 go get -d ./...
-docker-compose up
+docker-compose up -d
