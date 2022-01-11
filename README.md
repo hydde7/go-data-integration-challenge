@@ -4,7 +4,7 @@ O projeto foi feito na linguagem Go, utilizando os containers do Docker com o ba
 
 Tenha certeza que você possua Go, Docker e PostgreSQL instalados em sua máquina
 
-A porta que a API opera é a 8000
+A porta que a API opera é a 8000, enquanto o Docker utiliza a porta 5432 para o banco
 
 ## Packages
 
