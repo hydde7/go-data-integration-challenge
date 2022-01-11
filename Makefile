@@ -1,11 +1,11 @@
 #Challenge Makefile
 
 start:
-go run main.go
+  go run main.go
 
 check:
-go test ./src/database
+  go test ./src/database
 
 setup:
-go get -d ./...
-docker-compose up -d
+  go get -d ./...
+  docker-compose up -d
