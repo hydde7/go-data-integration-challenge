@@ -1,6 +1,6 @@
 # Data integration challenge
 
-O projeto foi feito na linguagem Go, utilizando os containers do Docker com o banco de dados PostgreSQL
+O projeto foi feito na linguagem Go, utilizando os containers do Docker com o banco de dados PostgreSQL. A partir da execução do programa, será criado uma tabela companies no banco de dados, note que ela não conterá a coluna website, para que seja anexado a coluna websites faça requisições na API
 
 Tenha certeza que você possua Go, Docker e PostgreSQL instalados em sua máquina
 
