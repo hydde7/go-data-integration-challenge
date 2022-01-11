@@ -22,8 +22,8 @@ Os testes foram feitos nas funções de database (companies) para garantir que a
 ## Rotas
 
 A rota para as requisições da api é localhost:8000/yawoenapi possuindo métodos GET e PATCH
-- GET: Utilizado para a API dar merge com o segundo arquivo CSV e criar a coluna website na tabela companies
-- PATCH: Utilizado para retornar um JSON com as companhias encontradas, para isto, deve-se enviar um JSON com parte do nome e zip da companhia
+- PATCH: Utilizado para a API dar merge com o segundo arquivo CSV e criar a coluna website na tabela companies
+- GET: Utilizado para retornar um JSON com as companhias encontradas, para isto, deve-se enviar um JSON com parte do nome e zip da companhia
   - Exemplo:
          ```
          {
