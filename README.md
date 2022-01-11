@@ -8,11 +8,12 @@ A porta que a API opera é a 8000, enquanto o Docker utiliza a porta 5432 para o
 
 ## Packages
 
-O projeto está dividido em 4 packages:
+O projeto está dividido em 3 packages:
 - database: Utilizado para fazer a conexão com o banco de dados
   - yawoenDb: Responsável pela conexão com o banco e criação da tabela
   - companies: É aqui que a conversa com a tabela companies é feita
 - models: Modelo utilizado para as transações em banco
+  - Company: Modelo da companhia, contendo sua struct para primeira inserção e struct para as demais transações
 - controllers: Utilizado para controlar as ações do sistema
   - readCSV: Possui as funções de leitura dos arquivos CSV
   - routes: Cria as rotas para requisições do tipo HTTP
